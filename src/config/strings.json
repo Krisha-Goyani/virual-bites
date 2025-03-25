@@ -1,0 +1,39 @@
+{
+    "HEADER": {
+      "LOGO_ALT": "Virtual Bites Logo",
+      "LOGO_TITLE": "Virtual Bites",
+      "NAV_ITEMS": [
+        {
+          "id": "home",
+          "label": "Home",
+          "path": "/"
+        },
+        {
+          "id": "categories",
+          "label": "Categories",
+          "path": "/categories"
+        },
+        {
+          "id": "how-it-works",
+          "label": "How it works",
+          "path": "/how-it-works"
+        },
+        {
+          "id": "stack-suggest",
+          "label": "Stack Suggest",
+          "path": "/stack-suggest"
+        },
+        {
+          "id": "join-us",
+          "label": "Join Us",
+          "path": "/join-us"
+        },
+        {
+          "id": "contact-us",
+          "label": "Contact Us",
+          "path": "/contact-us"
+        }
+      ],
+      "LOGIN_SIGNUP": "Login / Signup"
+    }
+  }

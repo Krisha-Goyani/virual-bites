@@ -1,0 +1,116 @@
+.hero {
+  position: relative;
+  height: 670px;
+  background-image: url("/Image/hero-img.jfif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  margin: 0 2.5rem;
+  border-radius: 20px;
+
+  @media (max-width: 768px) {
+    margin: 0 1rem;
+    height: 369px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: center;
+}
+
+.logoWrapper {
+  .logo {
+    width: auto;
+    height: auto;
+    max-width: 345px;
+    height: 130px;
+  }
+}
+
+.title {
+  font-family: var(--primary-font);
+  color: var(--white);
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.description {
+  color: var(--white);
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+  font-family: var(--secondary-font);
+}
+
+.enquireButton {
+  background-color: var(--white);
+  font-family: var(--secondary-font);
+  color: var(--black);
+  border: none;
+  padding: 1rem 3.125rem;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 280px;
+  height: 53px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 369px;
+    //   padding: 4rem 0;
+  }
+
+  .content {
+    padding: 0 2rem;
+    gap: 10px;
+  }
+
+  .logoWrapper {
+    .logo {
+      max-width: 131px;
+      height: 51px;
+    }
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+  .enquireButton {
+    width: 273px;
+    height: 46px;
+  }
+  .description {
+    font-size: 0.875rem;
+  }
+}
