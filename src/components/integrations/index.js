@@ -6,7 +6,7 @@ const integrationsData = [
   {
     id: 1,
     image: '/image/food-img-1.jpeg',
-    logo: '/image/urbanPiper.png',
+    logo: '/image/urbanPiper-img.png',
     rating: 4.5,
   },
   {
@@ -18,19 +18,19 @@ const integrationsData = [
   {
     id: 1,
     image: '/image/food-img-3.jpeg',
-    logo: '/image/urbanPiper.png',
+    logo: '/image/urbanPiper-img.png',
     rating: 4.5,
   },
   {
     id: 1,
     image: '/image/food-img-4.jpeg',
-    logo: '/image/urbanPiper.png',
+    logo: '/image/urbanPiper-img.png',
     rating: 4.5,
   },
   {
     id: 1,
     image: '/image/food-img-5.jpeg',
-    logo: '/image/urbanPiper.png',
+    logo: '/image/urbanPiper-img.png',
     rating: 4.5,
   },
   // Add more integration data as needed

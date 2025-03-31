@@ -33,12 +33,12 @@ const reviews = [
     text: 'Review content goes here, Viverra lorem'
   },
   {
-    id: 5,
+    id: 7,
     image: '/Image/review-img-5.jfif',
     text: 'Review content goes here, Viverra lorem'
   },
   {
-    id: 5,
+    id: 8,
     image: '/Image/review-img-5.jfif',
     text: 'Review content goes here, Viverra lorem'
   },

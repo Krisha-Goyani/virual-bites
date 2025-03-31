@@ -1,6 +1,8 @@
 .integrationsSection {
   padding: 0px 40px 80px 40px;
-//   background-color: var(--white);
+  @media (max-width: 768px) {
+    padding: 0 16px 30px 16px;
+  }
 }
 
 .cardsContainer {

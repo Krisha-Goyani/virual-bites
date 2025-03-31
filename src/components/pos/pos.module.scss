@@ -1,5 +1,8 @@
 .posSection {
   padding: 0 40px 80px 40px;
+  @media (max-width: 768px) {
+    padding: 0 16px 30px 16px;
+  }
 }
 
 .cardsContainer {

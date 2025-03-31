@@ -28,7 +28,7 @@
   }
 
   @media (max-width: 768px) {
-    height: 123px;
+    height: 125px;
   }
 }
 
@@ -55,6 +55,9 @@
   align-items: center;
   gap: 4px;
   padding: 8px;
+  @media (max-width: 768px) {
+    padding: 4px;
+  }
 }
 
 .logoWrapper {
@@ -64,6 +67,9 @@
   transform: translate(-50%, -50%);
   width: 300px;
   height: auto;
+  @media (max-width: 768px) {
+    width: 150px;
+  }
 }
 
 .logo {
@@ -72,6 +78,6 @@
   object-fit: contain;
   
   @media (max-width: 768px) {
-    width: 120px;
+    width: 150px;
   }
 } 
