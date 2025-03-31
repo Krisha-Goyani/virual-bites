@@ -1,6 +1,6 @@
 .reviewSection {
     padding: 60px 40px 80px 40px;
-    background-color: var(--primary-color);
+    // background-color: #260014;
   }
   
   .reviewsContainer {
@@ -11,7 +11,7 @@
   
   .reviewsScroll {
     display: flex;
-    gap: var(--spacing-md);
+    gap: 30px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
@@ -26,24 +26,24 @@
   
   .reviewCard {
     flex: 0 0 auto;
-    width: 300px;
+    width: 210px;
     scroll-snap-align: start;
-    border-radius: var(--radius-lg);
+    border-radius: 20px;
     overflow: hidden;
     position: relative;
   
     @media (max-width: 768px) {
-      width: 200px;
+      width: 115px;
     }
   }
   
   .imageWrapper {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 290px;
     
     @media (max-width: 768px) {
-      height: 280px;
+      height: 160px;
     }
   }
   
@@ -53,12 +53,14 @@
   
   .reviewText {
     position: absolute;
+    font-family: var(--secondary-font);
     bottom: 0;
     left: 0;
     right: 0;
-    padding: var(--spacing-md);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 20px;
     color: var(--white);
-    font-size: var(--fs-sm);
-    line-height: var(--lh-normal);
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   }

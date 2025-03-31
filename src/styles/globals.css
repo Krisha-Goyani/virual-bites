@@ -7,7 +7,7 @@
 
 :root {
   --primary-color: #8B0057;
-  --background-color: #260014;
+  --secondary-color: #260014;
   --white: #ffffff;
   --black: #000000;
   --container-width: 1440px;
@@ -46,6 +46,6 @@ body {
   width: 100%;
   margin: 0 auto;
   /* padding: 0 1rem; */
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   min-height: calc(100vh - var(--header-height));
 }
